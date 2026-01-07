@@ -1,0 +1,76 @@
+body {
+  background: linear-gradient(135deg, #667eea, #764ba2);
+  font-family: Arial, sans-serif;
+  text-align: center;
+  min-height: 100vh;
+  margin: 0;
+  padding-top: 40px;
+}
+
+h2 {
+  color: white;
+  font-size: 32px;
+  margin-bottom: 10px;
+}
+
+#result {
+  font-size: 22px;
+  font-weight: bold;
+  color: #fff;
+  margin-bottom: 15px;
+}
+
+
+table {
+  margin: 20px auto;
+  border-collapse: collapse;
+  background-color: white;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.3);
+}
+
+
+td {
+  width: 90px;
+  height: 90px;
+  font-size: 36px;
+  font-weight: bold;
+  text-align: center;
+  cursor: pointer;
+  border: 2px solid #ddd;
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+td:hover {
+  background-color: #f2f2f2;
+  transform: scale(1.05);
+}
+
+
+td:contains("X") {
+  color: #ff4d4d;
+}
+
+td:contains("O") {
+  color: #4d79ff;
+}
+
+
+button {
+  margin-top: 20px;
+  padding: 10px 25px;
+  font-size: 16px;
+  font-weight: bold;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+  background-color: #ffcc00;
+  color: #333;
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+button:hover {
+  background-color: #ffdb4d;
+  transform: scale(1.05);
+}
